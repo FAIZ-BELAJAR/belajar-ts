@@ -1,4 +1,7 @@
-export function PerulanganWhileLoop(limit: number):void {
+// While Loop
+// Typescript juga mendukung perulangan While loop seperti di javascript baik while loop atau do while loop
+
+function PerulanganWhileLoop(limit: number):void {
     let counter:number = 0;
 
     while(counter < limit){
@@ -7,7 +10,7 @@ export function PerulanganWhileLoop(limit: number):void {
     }
 }
 
-export function PerulanganDoWhileLopp(limit: number): void {
+function PerulanganDoWhileLopp(limit: number): void {
      let counter:number = 0;
 
     while(counter < limit){
@@ -26,3 +29,12 @@ export function PerulanganDoWhileLopp(limit: number): void {
         } while (true)
     }
 }
+
+function WhileStatement(){
+    PerulanganWhileLoop(20)
+    PerulanganDoWhileLopp(20)
+}
+
+// npx tsx 26Z.while-statement.ts
+
+WhileStatement()

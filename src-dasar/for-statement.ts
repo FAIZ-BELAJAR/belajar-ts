@@ -1,3 +1,5 @@
+// For Statement
+
 export function PerulanganOf(...angka: number[]):void{
     for (const nil of angka){
         console.info(nil)

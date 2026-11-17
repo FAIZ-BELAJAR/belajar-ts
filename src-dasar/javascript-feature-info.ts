@@ -1,0 +1,4 @@
+// Semua fitur yang pernah kita bhaas di javascript bisa dilakukan di typescript,
+// Seperti operator matematika, perbandingan, logika, string timplate, optional chaining, with statement, default parameter, function generator, getter setter, destructuring, modules, standard library dan lain lain 
+// Yang membedakan adalah pada fitur typescript karena strongly type, kita harus menentukan tipe data dari tiap variabel dan paraemeter 
+// Pada kasus jika kita ingin seperti di javascript, dimana variable atau parameter bisa menggunakan tipe data apaapun, maka kita harus menggunakan tipe data any di typescript
